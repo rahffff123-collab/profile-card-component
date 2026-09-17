@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!-- التكاليف من 86 الى 93مراجعة -->
+ <!--مراجعة وفهم 101-->
+ <!--التكليف 02 review from102 -110-->
+ <!--مراجعة درس 112-->
+ <!--التكاليف من 111 الى 114-->
+<html lang="en">
+   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Learn JavaScript</title>
+<style>
+   *{
+      margin: 0;
+      padding:  0;
+       font-family: sans-serif;
+   }
+   body{
+      background-color: rgb(9, 150, 150);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+box-sizing: border-box;
+   }
+   .Card{
+      background-color: white;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 350px;
+      text-align: center;
+      overflow: hidden;
+   }
+   .Header{
+      background-image: url('bg-pattern-card.svg');
+      height: 100px;
+
+   }
+   .avatar{
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-top:-48px ;
+
+   }
+   .Name{
+   
+    margin: 10px;
+   }
+   .age{
+    color: gray;
+   }
+   .Country{
+    color: gray;
+    margin-bottom: 20px;
+   }
+   .all{
+    display: flex;
+    border-top: 2px solid lightgray;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+   }
+   
+   .mainNumber{
+    font-size: large;
+    font-weight: bold;
+   }
+   .Dicripeng{
+          font-size: x-small;
+    color: gray;
+
+   }
+   @media (max-width :375px){
+      .Card{
+         width:92%;
+      }
+      .Header{
+         height: 120px;
+      }
+      .avatar{
+         width: 80px;  
+        height: 80px;
+        margin-top: -40px;
+      }
+      .all {
+        padding: 15px 10px; 
+    }
+
+    .mainNumber {
+        font-size: 16px; 
+    }
+
+    .Dicripeng {
+        font-size: 10px;
+    }
+
+   }
+</style>
+</head>
+<body>
+   <div class="Card">
+      <div class="Header"></div>
+
+   <img src="image-victor.jpg" alt="Image" class="avatar">
+   <h3 class="Name">Victor Crest <span class="age">26</span></h3>
+   <p class="Country">London</p>
+   
+      <div class="all">
+
+         <div class="Fllowers">
+            <p class="mainNumber">80K</p>
+            <p class="Dicripeng">Fllowers</p>
+         </div>
+
+         <div class="Likes">
+            <p class="mainNumber">803K</p>
+            <p class="Dicripeng">Likes</p>
+         </div>
+
+         <div class="Photos">
+            <p class="mainNumber">104K</p>
+            <p class="Dicripeng">Photos</p>
+         </div>
+
+      </div>
+   </div>
+<script src="main.js"></script>
+   </body>
+</html>
